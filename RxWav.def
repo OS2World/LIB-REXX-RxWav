@@ -1,0 +1,39 @@
+LIBRARY RxWav INITINSTANCE LONGNAMES
+PROTMODE
+DESCRIPTION 'RxWav - (C) Giorgio Vicario (katobleto@geocities.com)'
+DATA MULTIPLE NONSHARED
+STACKSIZE 32768
+EXPORTS
+     WavLoadFuncs      = WavLoadFuncs        @1
+     WavDropFuncs      = WavDropFuncs        @2
+     WavAllocTrac      = WavAllocTrac        @3
+     WavDropTrac       = WavDropTrac         @4
+     WavQueryFile      = WavQueryFile        @5
+     WavReadStereo     = WavReadStereo       @6
+     WavWriteStereo    = WavWriteStereo      @7
+     WavReadMono       = WavReadMono         @8
+     WavWriteMono      = WavWriteMono        @9
+     WavCopyTrac       = WavCopyTrac         @10
+     WavSinOsc         = WavSinOsc           @11
+     WavTestOsc        = WavTestOsc          @12
+     WavWhiteNoiseOsc  = WavWhiteNoiseOsc    @13
+     WavPinkNoiseOsc   = WavPinkNoiseOsc     @14
+     WavMute           = WavMute             @15
+     WavFilterBand     = WavFilterBand       @16
+     WavFilterHigh     = WavFilterHigh       @17
+     WavFilterLow      = WavFilterLow        @18
+     WavGraphEQ        = WavGraphEQ          @19
+     WavReverb         = WavReverb           @20
+     WavRevert         = WavRevert           @21
+     WavEco            = WavEco              @22
+     WavPeek           = WavPeek             @23
+     WavPoke           = WavPoke             @24
+     WavPeak           = WavPeak             @25
+     WavSeek           = WavSeek             @26
+     WavAnalyze        = WavAnalyze          @27
+     WavDyn            = WavDyn              @28
+     WavAvg            = WavAvg              @29
+     WavVocoder        = WavVocoder          @30
+     WavConv           = WavConv             @31
+     WavTest           = WavTest             @32
+

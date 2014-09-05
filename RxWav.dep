@@ -1,0 +1,48 @@
+RxWavIO.OBJ:          RxWavIO.c       RxWav.h \
+   makefile
+
+RxWavFilter.OBJ:      RxWavFilter.c   RxWav.h \
+   makefile
+
+RxWavOsc.OBJ:         RxWavOsc.c      RxWav.h \
+   makefile
+
+RxWavEco.OBJ:         RxWavEco.c      RxWav.h \
+   makefile
+
+RxWavPeak.OBJ:        RxWavPeak.c     RxWav.h \
+   makefile
+
+RxWavSeek.OBJ:        RxWavSeek.c     RxWav.h \
+   makefile
+
+RxWavPeekPoke.OBJ:    RxWavPeekPoke.c RxWav.h \
+   makefile
+
+RxWavAnalyze.OBJ:     RxWavAnalyze.c  RxWav.h \
+   makefile
+
+RxWavUtil.OBJ:        RxWavUtil.c     RxWav.h \
+   makefile
+
+RxWavMain.OBJ:        RxWavMain.c     RxWav.h \
+   makefile
+
+RxWavMsg.OBJ:         RxWavMsg.c      RxWav.h \
+   makefile
+
+RxWavDyn.OBJ:         RxWavDyn.c      RxWav.h \
+   makefile
+
+RxWavVocoder.OBJ:     RxWavVocoder.c  RxWav.h \
+   makefile
+
+RxWavConv.OBJ:        RxWavConv.c     RxWav.h \
+   makefile
+
+RxWavFIR.OBJ:         RxWavFIR.c      RxWav.h \
+   makefile
+
+RxWavTest.OBJ:        RxWavTest.c     RxWav.h \
+   makefile
+
